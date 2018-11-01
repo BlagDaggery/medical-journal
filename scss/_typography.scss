@@ -11,6 +11,11 @@
   line-height: 1.2rem;
 }
 
+div.article-category {
+  @extend %small-font;
+  font-weight: bold;
+}
+
 h1.article-title {
   margin: 0.25rem 0 0.5rem;
   line-height: 1.75rem;
