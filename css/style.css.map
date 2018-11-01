@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACL,WAAW,ECCL,qBAAqB;;;ADE7B,WAAY;EACV,WAAW,ECJA,oBAAoB",
+"sources": ["../scss/_typography.scss","../scss/_variables.scss"],
+"names": [],
+"file": "style.css"
+}
