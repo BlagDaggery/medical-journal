@@ -6,6 +6,11 @@
   font-family: "Oswald", sans-serif;
 }
 
+address.serif {
+  font-size: .75rem;
+  line-height: 1.2rem;
+}
+
 .article {
   margin: auto;
   max-width: 600px;
