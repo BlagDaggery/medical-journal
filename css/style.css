@@ -6,9 +6,15 @@
   font-family: "Oswald", sans-serif;
 }
 
-address.authors {
+address.authors, a.author-link {
   font-size: .75rem;
   line-height: 1.2rem;
+}
+
+a.author-link {
+  text-decoration: none;
+  color: #5f91bb;
+  font-weight: bold;
 }
 
 .article {
