@@ -2,24 +2,13 @@
 @import 'typography';
 @import 'mixins';
 
+.article {
+  margin: auto;
+  max-width: 600px;
+  width: 600px;
+}
+
 .main {
   display: grid;
-  grid-template-areas:
-    "article-nav"
-    "article-content";
-}
-
-.article-nav {
-  grid-area: article-nav;
-}
-
-.article-content {
-  grid-area: article-content;
-}
-
-@include break-point($medium) {
-  .main {
-    grid-template-areas:
-      "article-nav  article-content";
-  }
+  grid-template-columns: 150px 450px;
 }
