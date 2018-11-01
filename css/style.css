@@ -11,6 +11,11 @@ address.authors, a.author-link {
   line-height: 1.2rem;
 }
 
+h1.article-title {
+  margin: 0.25rem 0 0.5rem;
+  line-height: 1.75rem;
+}
+
 a.author-link {
   text-decoration: none;
   color: #5f91bb;

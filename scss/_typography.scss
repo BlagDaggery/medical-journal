@@ -11,6 +11,11 @@
   line-height: 1.2rem;
 }
 
+h1.article-title {
+  margin: 0.25rem 0 0.5rem;
+  line-height: 1.75rem;
+}
+
 address.authors {
   @extend %small-font;
 }
