@@ -6,4 +6,23 @@
   font-family: "Oswald", sans-serif;
 }
 
+.main {
+  display: grid;
+  grid-template-areas: "article-nav" "article-content";
+}
+
+.article-nav {
+  grid-area: article-nav;
+}
+
+.article-content {
+  grid-area: article-content;
+}
+
+@media (min-width: 680px) {
+  .main {
+    grid-template-areas: "article-nav  article-content";
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,2 +1,25 @@
 @import 'variables';
 @import 'typography';
+@import 'mixins';
+
+.main {
+  display: grid;
+  grid-template-areas:
+    "article-nav"
+    "article-content";
+}
+
+.article-nav {
+  grid-area: article-nav;
+}
+
+.article-content {
+  grid-area: article-content;
+}
+
+@include break-point($medium) {
+  .main {
+    grid-template-areas:
+      "article-nav  article-content";
+  }
+}
