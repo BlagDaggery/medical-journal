@@ -18,6 +18,13 @@
   border-bottom: $border;
 }
 
+.share-links {
+  margin: .5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .article-content {
   border-top: $border;
 }

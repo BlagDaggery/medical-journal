@@ -42,6 +42,12 @@ a.author-link {
   border-bottom: 1px solid #dddddd;
 }
 
+.share-links {
+  margin: .5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 .article-content {
   border-top: 1px solid #dddddd;
 }
