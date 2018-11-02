@@ -33,8 +33,16 @@ a.author-link {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 150px 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-nav {
+  width: 125px;
+}
+
+.article-content {
+  width: 440px;
 }
 
 .table-of-contents {
