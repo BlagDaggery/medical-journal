@@ -1,10 +1,12 @@
 // Font Size Class to @extend
+//-------------------------------
 %small-font {
   font-size: .75rem;
   line-height: 1.5rem;
 }
 
 // Font Family Classes
+//-------------------------------
 .serif {
   font-family: $serif;
 }
@@ -14,6 +16,7 @@
 }
 
 // Header Typography
+//-------------------------------
 .cat-date-container {
   @extend %small-font;
   font-weight: bold;
@@ -35,12 +38,8 @@ a.author-link {
   font-weight: bold;
 }
 
-// Article Content Typography
-
-.article-content {
-  @extend %small-font;
-}
-
+// Article Nav Typography
+//-------------------------------
 .article-nav {
   @extend %small-font;
 }
@@ -53,4 +52,10 @@ a.author-link {
 .nav-level-2 a {
   color: $accent-1;
   text-decoration: none;
+}
+
+// Article Content Typography
+//-------------------------------
+.article-content {
+  @extend %small-font;
 }

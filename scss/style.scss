@@ -7,6 +7,8 @@
   width: 600px;
 }
 
+// Header Styles
+//-------------------------------
 .cat-date-container div {
   display: inline-block;
   padding-right: .5rem;
@@ -27,14 +29,11 @@
   margin-top: 1rem;
 }
 
+// Article Nav Styles
+//-------------------------------
 .article-nav {
   width: 125px;
 }
-
-.article-content {
-  width: 440px;
-}
-
 
 .table-of-contents {
   border-top: $border;
@@ -61,20 +60,23 @@
   padding-left: 1rem;
 }
 
-.share-links {
-  margin: .5rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-.article-content {
-  border-top: $border;
-}
-
 .nav-level-1-active {
   background-color: $primary-medium;
 }
 
 a.nav-level-2-active {
   color: $primary-dark;
+}
+
+.share-links {
+  margin: .5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+// Article Content Styles
+//-------------------------------
+.article-content {
+  width: 440px;
+  border-top: $border;
 }
