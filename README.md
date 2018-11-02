@@ -6,6 +6,7 @@ A sample article from a medical journal.
 + Implement mobile responsive design:
 
 | Header | Header |
+| --- | --- |
 | Nav | Share Links |
 | Article Content | Article Content |
 
