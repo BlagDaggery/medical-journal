@@ -32,7 +32,7 @@ a.author-link {
 }
 
 .nav-level-1 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -113,7 +113,7 @@ a.author-link {
 }
 
 a.nav-level-2-active {
-  color: black;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */

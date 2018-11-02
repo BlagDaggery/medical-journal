@@ -28,7 +28,7 @@ address.authors {
 a.author-link {
   @extend %small-font;
   text-decoration: none;
-  color: $link-color;
+  color: $accent-1;
   font-weight: bold;
 }
 
@@ -42,11 +42,11 @@ a.author-link {
 }
 
 .nav-level-1 a {
-  color: black;
+  color: $primary-dark;
   text-decoration: none;
 }
 
 .nav-level-2 a {
-  color: $link-color;
+  color: $accent-1;
   text-decoration: none;
 }
