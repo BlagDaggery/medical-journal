@@ -6,7 +6,7 @@
   font-family: "Oswald", sans-serif;
 }
 
-div.article-category, address.authors, a.author-link {
+div.article-category, address.authors, a.author-link, .article-nav, .article-content {
   font-size: .75rem;
   line-height: 1.2rem;
 }

@@ -31,3 +31,7 @@ a.author-link {
   color: $link-color;
   font-weight: bold;
 }
+
+.article-nav, .article-content {
+  @extend %small-font;
+}
