@@ -37,4 +37,13 @@ a.author-link {
   grid-template-columns: 150px 450px;
 }
 
+.table-of-contents {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.article-content {
+  border-top: 1px solid #dddddd;
+}
+
 /*# sourceMappingURL=style.css.map */

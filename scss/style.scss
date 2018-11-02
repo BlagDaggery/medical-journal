@@ -12,3 +12,12 @@
   display: grid;
   grid-template-columns: 150px 450px;
 }
+
+.table-of-contents {
+  border-top: $border;
+  border-bottom: $border;
+}
+
+.article-content {
+  border-top: $border;
+}
