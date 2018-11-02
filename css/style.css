@@ -6,7 +6,7 @@
   font-family: "Oswald", sans-serif;
 }
 
-div.article-category, address.authors, a.author-link, .article-nav, .article-content {
+div.article-category, address.authors, a.author-link, .article-content {
   font-size: .75rem;
   line-height: 1.2rem;
 }
@@ -24,6 +24,21 @@ a.author-link {
   text-decoration: none;
   color: #5f91bb;
   font-weight: bold;
+}
+
+.article-nav {
+  font-size: .75rem;
+  line-height: 1.5rem;
+}
+
+.nav-level-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-level-2 a {
+  color: #5f91bb;
+  text-decoration: none;
 }
 
 .article {
@@ -49,6 +64,24 @@ a.author-link {
 .table-of-contents {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
+  font-weight: bold;
+}
+
+.nav-level-1, .nav-level-2 {
+  list-style: none;
+}
+
+.nav-level-1 {
+  text-transform: uppercase;
+  padding-left: 0;
+}
+.nav-level-1 li {
+  padding-left: 1rem;
+}
+
+.nav-level-2 {
+  text-transform: capitalize;
+  padding-left: 1rem;
 }
 
 .share-links {
@@ -59,6 +92,14 @@ a.author-link {
 
 .article-content {
   border-top: 1px solid #dddddd;
+}
+
+.nav-level-1-active {
+  background-color: #f4f4f4;
+}
+
+a.nav-level-2-active {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

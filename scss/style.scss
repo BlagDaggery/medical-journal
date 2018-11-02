@@ -22,9 +22,30 @@
   width: 440px;
 }
 
+
 .table-of-contents {
   border-top: $border;
   border-bottom: $border;
+  font-weight: bold;
+}
+
+%list-style {
+  list-style: none;
+}
+
+.nav-level-1 {
+  @extend %list-style;
+  text-transform: uppercase;
+  padding-left: 0;
+  li {
+    padding-left: 1rem;
+  }
+}
+
+.nav-level-2 {
+  @extend %list-style;
+  text-transform: capitalize;
+  padding-left: 1rem;
 }
 
 .share-links {
@@ -33,7 +54,14 @@
   justify-content: space-around;
 }
 
-
 .article-content {
   border-top: $border;
+}
+
+.nav-level-1-active {
+  background-color: #f4f4f4;
+}
+
+a.nav-level-2-active {
+  color: black;
 }
