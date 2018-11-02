@@ -6,12 +6,12 @@
   font-family: "Oswald", sans-serif;
 }
 
-div.article-category, address.authors, a.author-link, .article-content {
+.cat-date-container, address.authors, a.author-link, .article-content {
   font-size: .75rem;
   line-height: 1.2rem;
 }
 
-div.article-category {
+.cat-date-container {
   font-weight: bold;
 }
 
@@ -45,6 +45,20 @@ a.author-link {
   margin: auto;
   max-width: 600px;
   width: 600px;
+}
+
+.cat-date-container div {
+  display: inline-block;
+  padding-right: .5rem;
+}
+
+.category {
+  border-right: 1px solid #dddddd;
+  border-spacing: 0;
+}
+
+.publish-date {
+  margin-left: .5rem;
 }
 
 .main {

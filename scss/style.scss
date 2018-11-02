@@ -2,10 +2,25 @@
 @import 'typography';
 @import 'mixins';
 
+
 .article {
   margin: auto;
   max-width: 600px;
   width: 600px;
+}
+
+.cat-date-container div {
+  display: inline-block;
+  padding-right: .5rem;
+}
+
+.category {
+  border-right: $border;
+  border-spacing: 0;
+}
+
+.publish-date {
+  margin-left: .5rem;
 }
 
 .main {
