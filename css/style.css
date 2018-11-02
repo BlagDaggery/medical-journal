@@ -1,14 +1,14 @@
+.cat-date-container, address.authors, a.author-link, .article-content, .article-nav {
+  font-size: .75rem;
+  line-height: 1.5rem;
+}
+
 .serif {
   font-family: "Merriweather", serif;
 }
 
 .sans-serif {
   font-family: "Oswald", sans-serif;
-}
-
-.cat-date-container, address.authors, a.author-link, .article-content {
-  font-size: .75rem;
-  line-height: 1.2rem;
 }
 
 .cat-date-container {
@@ -24,11 +24,6 @@ a.author-link {
   text-decoration: none;
   color: #5f91bb;
   font-weight: bold;
-}
-
-.article-nav {
-  font-size: .75rem;
-  line-height: 1.5rem;
 }
 
 .nav-level-1 a {
